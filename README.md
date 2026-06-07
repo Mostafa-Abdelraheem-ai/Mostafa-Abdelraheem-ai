@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  AI Engineer | Machine Learning Specialist | RAG & LLM Systems Developer
+  Software Engineer | Machine Learning Specialist | RAG & LLM Systems Developer
 </h3>
 
 ---
