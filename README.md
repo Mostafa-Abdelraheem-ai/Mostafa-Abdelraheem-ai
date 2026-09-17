@@ -3,79 +3,105 @@
 </h1>
 
 <h3 align="center">
-  Software Engineer | Machine Learning Specialist | RAG & LLM Systems Developer
+  Backend Engineer (.NET) &nbsp;|&nbsp; AI & ML Engineer &nbsp;|&nbsp; RAG & LLM Systems
 </h3>
+
+<p align="center">
+  I build production backends and the AI systems that run on top of them.
+</p>
 
 ---
 
 ## 🧠 About Me
 
-- 🎓 Graduate of **Faculty of Engineering – Systems & Computer Engineering**, Al-Azhar University  
-- 🤖 Passionate about **Artificial Intelligence**, especially **LLMs, RAG systems, and AI automation**
-- 🏗️ Building **production-ready AI systems** using FastAPI, Docker, and Vector Databases  
-- 🧩 Strong expertise in:
-  - Machine Learning & Deep Learning
-  - NLP & Computer Vision
-  - Retrieval-Augmented Generation (RAG)
-- ⚡ Competitive programmer (**Codeforces / LeetCode**)  
-- 📈 Committed to continuous learning and staying updated with AI advancements  
+- 🎓 Graduate of **Faculty of Engineering – Systems & Computer Engineering**, Al-Azhar University
+- 🏗️ **Backend engineer** working on a production **.NET 10 modular monolith** — CQRS, EF Core, PostgreSQL, Redis, background jobs, containerized deployment
+- 🤖 **AI/ML engineer** focused on **LLMs, RAG systems, and AI automation**, shipped as real services rather than notebooks
+- 🧩 Comfortable across the whole path: **domain modelling → API design → data layer → deployment → observability**
+- ⚡ Competitive programmer (**Codeforces / LeetCode**)
+- 📈 Committed to continuous learning in both software architecture and AI
 
 ---
 
 ## ⚙️ Tech Stack
 
 ### 💻 Languages
-- Python 🐍  
-- SQL  
+`C#` &nbsp; `Python` &nbsp; `SQL` &nbsp;•&nbsp; also worked with `Java` &nbsp; `JavaScript / TypeScript`
 
-### 🧠 AI / ML
-- Scikit-learn  
-- TensorFlow / PyTorch  
-- Transformers (Hugging Face)  
-- LangChain / LangGraph  
+---
 
-### 🔍 RAG & Vector Databases
-- Pinecone  
-- Qdrant  
-- ChromaDB  
-- PostgreSQL + pgvector  
+### 🏗️ Backend Engineering (.NET)
+- **ASP.NET Core** — REST APIs, minimal APIs, middleware, OpenAPI / Scalar
+- **Entity Framework Core** + **Npgsql** — migrations, query tuning, **Dapper** where raw SQL wins
+- **CQRS with MediatR** — commands, queries, pipeline behaviours, **FluentValidation**
+- **ASP.NET Identity**, **JWT bearer** auth, Google OAuth, role & permission-based authorization
+- **Hangfire** & **Quartz** — scheduled and background job processing
+- **Refit** — typed HTTP clients for third-party integrations
+- **Serilog + Seq** — structured logging, health checks, diagnostics
 
-### ⚙️ Backend & APIs
-- FastAPI  
-- Flask  
-- REST APIs  
-- Webhooks  
+### 🐍 Backend Engineering (Python)
+- **FastAPI**, **Flask**, REST APIs, webhooks, async workers
+
+### 🧱 Architecture & Practice
+- Modular monolith, Clean Architecture, domain-driven module boundaries
+- Separation of Domain / Application / Infrastructure / Presentation layers
+- Integration events between modules, idempotent handlers
+- Code review, static analysis (**SonarAnalyzer**), Git workflow with PRs
+
+---
+
+### 🗄️ Data & Storage
+- **PostgreSQL** &nbsp;•&nbsp; **Redis** (caching, distributed locks)
+- Vector stores: **Pinecone**, **Qdrant**, **ChromaDB**, **PostgreSQL + pgvector**
+- **AWS S3** for object storage
+
+### 🤖 AI / ML
+- Scikit-learn &nbsp;•&nbsp; TensorFlow / PyTorch
+- Transformers (Hugging Face)
+- LangChain / LangGraph
+- NLP, Computer Vision, Retrieval-Augmented Generation (RAG)
+- MLflow for experiment tracking
 
 ### ☁️ DevOps & Deployment
-- Docker & Docker Compose  
-- NGINX  
-- GitHub Actions  
-- MLflow  
-- Prometheus & Grafana  
+- Docker & Docker Compose &nbsp;•&nbsp; NGINX
+- GitHub Actions &nbsp;•&nbsp; Prometheus & Grafana
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔹 AI-Powered E-Commerce Platform
-- AI chatbot with **3-stage pipeline (FAQ → RAG → Human escalation)**  
-- Virtual try-on system using **VITON-HD + OpenPose**  
-- Backend-integrated automation for real-time updates  
+### 🔹 PantherExpress — Logistics & Delivery Platform `.NET 10`
+Production backend for a logistics and delivery operation, built as a **modular monolith**.
+
+- Independent modules (**Users, Shipments, Pricing, System Configurations**) with enforced boundaries
+- **CQRS** command/query pipeline on MediatR with validation and authorization behaviours
+- **EF Core + PostgreSQL** data layer, **Redis** caching, **Hangfire/Quartz** background jobs
+- Role and permission-based access control for drivers, agents, and admins
+- Shipment label & barcode generation (**ZXing**, **SkiaSharp**, **PDFsharp**), Excel reporting (**ClosedXML**)
+- External integrations — Email (**AWS SES**), SMS, WhatsApp, image storage (**AWS S3**) — behind typed Refit clients
+- Fully containerized with **Docker Compose** (API + PostgreSQL + Redis), structured logging via **Serilog/Seq**
 
 ---
 
-### 🔹 SEER-AI (Cybersecurity AI Platform)
-- Phishing & social engineering detection  
-- Hybrid **AI risk scoring engine**  
-- Local **RAG-based threat intelligence system**  
-- Explainable AI insights  
+### 🔹 SEER-AI — Cybersecurity AI Platform `Python`
+- Phishing & social engineering detection
+- Hybrid **AI risk scoring engine**
+- Local **RAG-based threat intelligence system**
+- Explainable AI insights
+
+---
+
+### 🔹 AI-Powered E-Commerce Platform
+- AI chatbot with a **3-stage pipeline (FAQ → RAG → human escalation)**
+- Virtual try-on system using **VITON-HD + OpenPose**
+- Backend-integrated automation for real-time updates
 
 ---
 
 ### 🔹 Conversational AI Agent (Voice + LLM)
-- Integrated **ElevenLabs + FastAPI**  
-- Voice-based scheduling with **Google Calendar**  
-- Real-time webhook automation  
+- Integrated **ElevenLabs + FastAPI**
+- Voice-based scheduling with **Google Calendar**
+- Real-time webhook automation
 
 ---
 
@@ -84,7 +110,9 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-Abdelraheem-ai&show_icons=true&theme=tokyonight" />
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mostafa-Abdelraheem-ai&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.demolab.com/?user=Mostafa-Abdelraheem-ai&theme=tokyonight" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-Abdelraheem-ai&layout=compact&theme=tokyonight&langs_count=8" />
 </p>
 
 ---
@@ -104,9 +132,10 @@
 
 ## 🧭 Current Focus
 
-- Building **scalable RAG systems**  
-- Exploring **Multimodal AI (Vision + Text + Audio)**  
-- Developing **AI-powered automation systems**  
+- Designing **scalable, well-bounded backend systems** in .NET
+- Building **production RAG systems** that survive real traffic
+- Exploring **Multimodal AI (Vision + Text + Audio)**
+- Bringing AI capabilities into **existing production backends**, not around them
 
 ---
 
