@@ -108,11 +108,16 @@ Production backend for a logistics and delivery operation, built as a **modular 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-Abdelraheem-ai&show_icons=true&theme=tokyonight" />
-  <br>
-  <img src="https://github-readme-streak-stats.demolab.com/?user=Mostafa-Abdelraheem-ai&theme=tokyonight" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-Abdelraheem-ai&layout=compact&theme=tokyonight&langs_count=8" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mostafa-Abdelraheem-ai&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Mostafa-Abdelraheem-ai&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mostafa-Abdelraheem-ai&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mostafa-Abdelraheem-ai&theme=tokyonight" />
 </p>
 
 ---
